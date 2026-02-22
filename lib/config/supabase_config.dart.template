@@ -1,0 +1,15 @@
+class SupabaseConfig {
+  // Replace these with your actual Supabase credentials
+  static const String supabaseUrl = 'YOUR_SUPABASE_URL';
+  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+
+  // Storage bucket names
+  static const String eventBannersBucket = 'event-banners';
+
+  // Table names
+  static const String usersTable = 'users';
+  static const String eventsTable = 'events';
+  static const String registrationsTable = 'registrations';
+  static const String attendanceTable = 'attendance';
+}
+
